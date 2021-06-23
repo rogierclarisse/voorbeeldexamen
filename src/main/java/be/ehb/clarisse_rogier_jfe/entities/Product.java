@@ -60,11 +60,11 @@ public class Product {
         this.endTime = endTime;
     }
 
-    public Person getPerson() {
+    public Person getOwner() {
         return owner;
     }
 
-    public void setPerson(Person person) {
+    public void setOwner(Person owner) {
         this.owner = owner;
     }
 }
